@@ -1,16 +1,15 @@
-# Cliente de API REST
+# APIREST
 
-Este proyecto es un cliente de API REST simple que permite agregar ítems. Utiliza Node.js con Express en el back-end y HTML, CSS y JavaScript en el front-end.
+This project is a simple REST API client that allows adding items. It uses Node.js with Express on the back end and HTML, CSS, and JavaScript on the front end.
+Contributor: Gonzalo Guachamin
 
-Colaborador: Gonzalo Guachamin
-
-### Prerrequisitos
+### Prerequisites
 
 - Node.js y npm instalados en tu máquina.
 
-### Pasos
+### Steps
 
-1. Clona el repositorio:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/JonathanP06511/GroupWorkshop1.git

@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const itemForm = document.getElementById('itemForm');
     const itemsList = document.getElementById('itemsList');
   
-    // Obtener todos los items al cargar la página
+
     fetch('/api/items')
       .then(response => response.json())
       .then(items => {
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
       })
       .catch(error => console.error('Error al obtener los items:', error));
   
-    // Manejar el envío del formulario para crear un nuevo item
+
     itemForm.addEventListener('submit', event => {
       event.preventDefault();
       const itemName = document.getElementById('itemName').value;
